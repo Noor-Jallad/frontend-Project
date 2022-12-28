@@ -1,0 +1,72 @@
+/* <!-- // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } -->
+    <!-- <i class="fa-brands fa-facebook"></i> --> */
+
+    @media (max-width:992px){
+      .navbar .aromaImg{
+        width: 30%;
+      }
+      .navbar .container{
+        width: 85%;
+      }
+     .category .category-img{
+        float: left;
+        width: 33.33%;
+     }
+
+    }
+    @media (max-width:767px){
+      .list{
+        display: none;
+      }
+      .icons .fa-bars{
+        display: unset;
+      }
+      .button{
+        display: none;
+      }
+      .navbar .icons,.navbar .aromaImg{
+        width: 50%;
+      }
+      .navbar .icons{
+        text-align: right;
+      }
+      .header .header-img{
+        padding-right: 20px;
+      }
+      .category .category-img{
+       float: left;
+       width: 50%;
+      }
+      .products .product-items .product{
+        float: left;
+        width: 50%;
+       }
+    }
+    @media (max-width:576px)
+    {
+        .header .header-img{
+            float: none;
+            width: 100%;
+        }
+        .header .header-content{
+            display: none;
+        }
+        .category .category-img{
+            float: none;
+            width: 100%;
+           }
+           .products .product-items .product{
+            float: none;
+            width: 100%;
+           }
+}

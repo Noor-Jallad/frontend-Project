@@ -1,0 +1,155 @@
+/* body{
+    background-color: red;
+} */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;  
+}
+
+
+/* Start navbar styling */
+.fa-bars{
+    display: none;
+}
+
+.navbar{
+    padding: 20px 0;
+}
+
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.aromaImg,.list,.icons,.button{
+    float: left;
+}
+.aromaImg{
+width: 30%;
+padding-top: 10px;
+}
+.list{
+width: 45%;
+/* padding:0 30px ; */
+padding-top: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+.navbar .button a{
+color: #333;
+text-transform: capitalize;
+/* padding-top:10px ; */
+}
+.button{
+border: 1px solid #384aeb;
+padding: 10px 30px;
+border-radius: 20px;
+}
+.list ul{
+    list-style: none;
+    overflow: hidden;
+}
+.list ul li{
+float:left;
+}
+.list ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding-right:20px;
+}
+ .icons i{
+  color: #384aeb;
+  font-size: 18px;
+  margin-right: 10px;
+  padding-top: 10px;
+ }
+
+
+/* End navbar styling */
+
+/* Start header styling */
+.header .header-img,.header .header-content{
+    float:left;
+}
+.header .header-img{
+    width: 40%;
+}
+.header .header-content{
+    width: 60%;
+    padding: 100px 100px;
+    box-sizing: border-box;
+}
+.header .header-img img{
+    width: 100%;
+}
+.header .header-content span{
+    font-size: 25px;
+    color: #333;
+
+  
+}
+.header button{
+   background-color: #384aeb;
+   padding: 10px 30px;
+   border-radius: 20px;
+   border: none;
+}
+.header button a{
+    text-decoration: none;
+    color: white;
+}
+.header p{
+    margin: 20px 0;
+}
+
+/* End header styling */
+
+/* Start Category styling */
+.category .category-img{
+float: left;
+width: 33.33%;
+padding-right: 10px;
+box-sizing: border-box;
+margin-top: 70px;
+}
+.category-img img{
+    width: 100%;
+}
+.category{
+    margin-bottom:70px ;
+}
+/* End Category styling */
+
+/* Start styling products */
+.products .product-items{
+    text-align: center;
+}
+.products h2 span{
+border-bottom: 2px solid #384aeb;
+}
+.products .product-items .product{
+float: left;
+width: 33.33%;
+padding-left:35px ;
+box-sizing: border-box;
+}
+.product img{
+    width: 100%;
+}
+.products h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.product .span-cost{
+    color: #384aeb;
+    font-weight: bold;
+}
+
+
+
+/* End styling products */
